@@ -1,14 +1,59 @@
 <!--
     =====================================
     generator=datazen
-    version=3.1.3
-    hash=bcaac9b045b10e89412c12d6c8c21b52
+    version=3.2.1
+    hash=7fb71d8108a9df72e76e63f5cb340932
     =====================================
 -->
 
-# yambs-sample ([0.3.0](https://github.com/vkottler/yambs-sample/releases/tag/0.3.0))
+# yambs-sample ([0.3.1](https://github.com/libre-embedded/yambs-sample/releases/tag/0.3.1))
 
-[![codecov](https://codecov.io/gh/vkottler/yambs-sample/branch/master/graph/badge.svg)](https://codecov.io/gh/vkottler/yambs-sample)
-![Build Status](https://github.com/vkottler/yambs-sample/actions/workflows/yambs-project.yml/badge.svg)
+[![codecov](https://codecov.io/gh/libre-embedded/yambs-sample/branch/master/graph/badge.svg)](https://codecov.io/gh/libre-embedded/yambs-sample)
+![Build Status](https://github.com/libre-embedded/yambs-sample/actions/workflows/yambs-project.yml/badge.svg)
 
 *A sample yambs project.*
+
+## Documentation
+
+### Generated
+
+* By [sphinx+breathe+exhale](https://vkottler.github.io/cpp/sphinx/yambs-sample/)
+(What's [sphinx](https://www.sphinx-doc.org/en/master/) /
+[breathe](https://breathe.readthedocs.io/en/latest/) /
+[exhale](https://exhale.readthedocs.io/en/latest/)?)
+
+## Workflow
+
+Install [vmklib](https://github.com/libre-embedded/vmklib) such that you can
+`mk --version` (a `pip install vmklib` to your desired Python environment is
+all that's needed).
+
+From a fresh checkout:
+
+```
+git submodule update --init
+mk dz-sync
+mk g
+```
+
+This should result in fully compiled code that you can now use or add to.
+
+
+### Generating Interfaces
+
+Structs and enumerations can be defined for
+[ifgen](https://github.com/libre-embedded/ifgen) which can then generate C++ source
+code into the project.
+
+Generating configurations based on an
+[SVD](https://github.com/libre-embedded/ifgen/tree/master/ifgen/data/svd) file:
+
+```
+mk ifgen-svd-XMC4700
+```
+
+Generating code from an `ifgen.yaml` in the root directory of the project:
+
+```
+mk ifgen
+```
