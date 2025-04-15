@@ -2,13 +2,16 @@
 name: yambs-sample
 description: A sample yambs project.
 
+owner: libre-embedded
+main_branch: master
+
 version:
   major: 0
   minor: 3
-  patch: 0
+  patch: 1
 
 config_local: |
   dependencies:
-    - github: {repo: yambs-sample2, owner: *self}
-    - github: {repo: yambs-sample3, owner: *self}
+    - github: {repo: yambs-sample2, owner: libre-embedded}
+    - github: {repo: yambs-sample3, owner: libre-embedded}
       as_source: true
