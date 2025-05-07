@@ -2,11 +2,11 @@
     =====================================
     generator=datazen
     version=3.2.3
-    hash=f6433831e705ba676a5efbb4b547e6ca
+    hash=a4d1f7df355af09805f4aaffac2113f3
     =====================================
 -->
 
-# yambs-sample ([0.3.2](https://github.com/libre-embedded/yambs-sample/releases/tag/0.3.2))
+# yambs-sample ([0.3.3](https://github.com/libre-embedded/yambs-sample/releases/tag/0.3.3))
 
 [![codecov](https://codecov.io/gh/libre-embedded/yambs-sample/branch/master/graph/badge.svg)](https://codecov.io/gh/libre-embedded/yambs-sample)
 ![Build Status](https://github.com/libre-embedded/yambs-sample/actions/workflows/yambs-project.yml/badge.svg)
