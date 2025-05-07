@@ -1,12 +1,12 @@
 <!--
     =====================================
     generator=datazen
-    version=3.2.1
-    hash=7fb71d8108a9df72e76e63f5cb340932
+    version=3.2.3
+    hash=f6433831e705ba676a5efbb4b547e6ca
     =====================================
 -->
 
-# yambs-sample ([0.3.1](https://github.com/libre-embedded/yambs-sample/releases/tag/0.3.1))
+# yambs-sample ([0.3.2](https://github.com/libre-embedded/yambs-sample/releases/tag/0.3.2))
 
 [![codecov](https://codecov.io/gh/libre-embedded/yambs-sample/branch/master/graph/badge.svg)](https://codecov.io/gh/libre-embedded/yambs-sample)
 ![Build Status](https://github.com/libre-embedded/yambs-sample/actions/workflows/yambs-project.yml/badge.svg)
