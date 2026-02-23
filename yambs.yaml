@@ -1,14 +1,14 @@
 # =====================================
 # generator=datazen
 # version=3.2.4
-# hash=43b12c0d6524c6abce3b7e10d39f84bc
+# hash=c7c3bea981c5e5400aa596b7b5e980dd
 # =====================================
 ---
 project:
   name: yambs-sample
 
   github: {owner: &self libre-embedded}
-  version: {major: 0, minor: 3, patch: 4}
+  version: {major: 0, minor: 3, patch: 5}
 
 dependencies:
   - github: {repo: yambs-sample2, owner: libre-embedded}
